@@ -2,7 +2,7 @@
 
 ## Задание 1:
 
-Clickhouse:
+### Clickhouse:
 
 docker pull clickhouse/clickhouse-server
 
@@ -17,8 +17,7 @@ docker rm e07d0ed2c2af
 
 
 
-Postgres:
-
+### Postgres:
 
 
 docker pull postgres   
