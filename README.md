@@ -1,6 +1,6 @@
 # OLAP_WB_Practice
 
-##Задание 1:
+## Задание 1:
 
 Clickhouse:
 
