@@ -1,6 +1,6 @@
 # OLAP_WB_Practice
 
-Задание 1:
+##Задание 1:
 
 Clickhouse:
 
@@ -19,6 +19,8 @@ docker rm e07d0ed2c2af
 
 Postgres:
 
+
+
 docker pull postgres   
 
 docker run -d  --cpus="1" --restart=unless-stopped -p 8888:8888 -v volume:/Users/vladpodsadnyj/docker/ postgres
@@ -28,3 +30,11 @@ docker restart 96a3c5c693d3
 docker stop 96a3c5c693d3   
 
 docker rm 96a3c5c693d3
+
+## Задание 2 
+
+cd /Users/vladpodsadnyj/compose/
+
+nano compose.yml      
+
+docker-compose up
